@@ -1,6 +1,6 @@
 from flask import Flask , jsonify
 from flask_restful import reqparse
-
+import requests
 app = Flask(__name__)
 
 url = 'https://prime.exchangerate-api.com/v5/cb4c95ba361e5d2beaba105d/latest/USD'
