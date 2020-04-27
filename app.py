@@ -1,5 +1,4 @@
 from flask import Flask , jsonify
-import requests
 from flask_restful import reqparse
 
 app = Flask(__name__)
